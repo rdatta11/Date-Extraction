@@ -6,6 +6,8 @@
 # Packages
 *.egg
 *.egg-info
+*.swp
+*.swo
 dist
 build
 eggs
