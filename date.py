@@ -9,4 +9,5 @@ matches = re.findall("(((?:jan(?:(?:.)?|(?:uary)?)|feb(?:(?:.)?|(?:ruary)?)|mar(
 print matches
 matches = re.findall("(?:(?:[0]?[1-9])|(?:[1][0-2]))[-/](?:(?:[012]?[0-9])|(?:[3][01]))[-/][12][0-9][0-9][0-9]",fileText, re.IGNORECASE)
 print matches
-#matches = re.findall("
+matches = re.findall("mon((?:.)?|(?:day)?)", fileText, re.IGNORECASE)
+print matches
