@@ -9,5 +9,11 @@ matches = re.findall("((?:jan(?:(?:.)?|(?:uary)?)|feb(?:(?:.)?|(?:ruary)?)|mar(?
 print matches
 matches = re.findall("(?:(?:[0]?[1-9])|(?:[1][0-2]))[-/](?:(?:[012]?[0-9])|(?:[3][01]))[/-][12][0-9][0-9][0-9]",fileText, re.IGNORECASE)
 print matches
-matches = re.findall("(?:mon(?:(?:.)?|(?:day)?)|tue(?:(?:.)?|(?:sday)?))", fileText, re.IGNORECASE)
+#matches = re.findall("(?:mon(?:(?:.)?|(?:day)?)|tue(?:(?:.)?|(?:sday)?))", fileText, re.IGNORECASE)
+#print matches
+matches = re.findall("(?:christmas|memorial day|labor day|halloween|new years eve|new year's eve|mothers day|mother's day|martin luther king day|presidents day|president's day|memorial day| independence day|labor day|columbus day|veterans day|valentines day|valentine's day|halloween|st. patricks day|st. patricks day|veteran's day|thanksgiving|thanksgiving day)",fileText, re.IGNORECASE)
+print matches
+#matches = re.findall("mon(?:\.|day)?|tue(s)?(?:\.|day)?|wed(?:\.|nesday)?|thur(s)?(?:\.|day)?|fri(?:\.|day)?|sat(?:\.|urday)?|sun(?:\.|day)?",fileText, re.IGNORECASE)
+#print matches
+matches = re.findall("mon(?:\.|day)?|tue(?:\.|sday)?|wed(?:\.|nesday)?|thur(?:\.|sday)?|fri(?:\.|day)?|sat(?:\.|urday)?|sun(?:\.|day)?",fileText, re.IGNORECASE)
 print matches

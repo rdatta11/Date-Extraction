@@ -1,5 +1,29 @@
-1 2 3 the
+1halloween 2 3 the
+monday
+mon.
+tuesday
+wed.
+wednesday
+tues.
+tue.
+tuesday
+thurs
+thurs.
+thur.
+thur
+thursday
+fri
+fri.
+friday
+sat
+sat.
+saturday
+sun
+sun.
+sunday
+
 the quick brown fox 2354
+february
 feb 1 
 feb 0
 feb -10
@@ -52,3 +76,12 @@ december 23
 monday
 mon
 mon.
+christmas
+memorial day
+labor day
+vererans day
+veterens
+veterans
+independence day
+new years eve
+
