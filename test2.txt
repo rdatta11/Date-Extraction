@@ -7,3 +7,4 @@ The program receives as input a text file (e.g., “input.txt”) and should pr
 In order to encourage a good programming style, part of the grade will take that into consideration (as explained in class).
 saint patricks day
 valentines day
+monday the 21st of november 2013
